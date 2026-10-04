@@ -1,8 +1,12 @@
-# React Weather App 🌤️
+# React Weather App
 
 A simple weather app I built while learning React.
 
 The app lets you search for a city and get its current weather information using the OpenWeatherMap API.
+
+## Live Demo
+
+**[Open React Weather App](https://simran-kaur5.github.io/react-weather-app/)**
 
 ## Features
 
@@ -83,6 +87,6 @@ While making this project, I practiced:
 
 ## Author
 
-Simranjit Kaur
+**Simranjit Kaur**
 
 GitHub: https://github.com/simran-kaur5
