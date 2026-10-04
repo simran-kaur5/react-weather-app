@@ -1,16 +1,88 @@
-# React + Vite
+# React Weather App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple weather app I built while learning React.
 
-Currently, two official plugins are available:
+The app lets you search for a city and get its current weather information using the OpenWeatherMap API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Search weather by city name
+* Shows current temperature
+* Shows minimum and maximum temperature
+* Shows humidity
+* Shows feels-like temperature
+* Shows weather description
+* Changes the weather image/icon based on the weather
+* Built with Material UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Used
 
-## Expanding the Oxlint configuration
+* React
+* JavaScript
+* Material UI
+* CSS
+* OpenWeatherMap API
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/simran-kaur5/react-weather-app.git
+```
+
+Go to the project folder:
+
+```bash
+cd react-weather-app
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file in the root folder and add your OpenWeatherMap API key:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+
+Then start the app:
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## What I Practiced
+
+While making this project, I practiced:
+
+* React components
+* `useState`
+* Props
+* Controlled inputs
+* Form handling
+* API calls using `fetch`
+* `async/await`
+* Error handling
+* Conditional rendering
+* Material UI components
+
+## Future Improvements
+
+* Add a 5-day weather forecast
+* Add a loading state
+* Improve the UI
+* Make it more responsive
+* Add recent searches
+
+## Author
+
+Simranjit Kaur
+
+GitHub: https://github.com/simran-kaur5
